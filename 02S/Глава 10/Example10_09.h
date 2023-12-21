@@ -1,0 +1,15 @@
+#pragma once
+//Класс для реализации комплексных чисел:
+class MComp{
+public:
+double Re;
+double Im;
+//Переопределение префиксной формы инкремента:
+MComp operator++(){
+Re++;
+return *this;}
+//Переопределение постфиксной формы инкремента:
+MComp operator++(int unused){
+Im++;
+return *this;}
+};

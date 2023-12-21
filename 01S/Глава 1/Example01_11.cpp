@@ -1,0 +1,19 @@
+// ¬ычисление средней скорости транспорта V, проехавшего пути S1 и S2 за врем€ t1 и t2, соответсвенно.
+#include<iostream>
+using namespace std;
+int main(){
+//ѕараметры задачи:
+double S1,S2,t1,t2,V;
+//¬вод параметров:
+cout<<"Enter S1 = ";
+cin>>S1;
+cout<<"Enter S2 = ";
+cin>>S2;
+cout<<"Enter t1 = ";
+cin>>t1;
+cout<<"Enter t2 = ";
+cin>>t2;
+V=(S1+S2)/(t1+t2);
+cout<<"Speed V = "<<V<<"\n";
+return 0;
+}
