@@ -1,4 +1,4 @@
-// Раскодировщик по шаблону
+// Р Р°СЃРєРѕРґРёСЂРѕРІС‰РёРє РїРѕ С€Р°Р±Р»РѕРЅСѓ
 #include <iostream>
 #include <cstdio>
 using namespace std;

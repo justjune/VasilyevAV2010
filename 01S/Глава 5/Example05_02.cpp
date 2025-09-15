@@ -1,11 +1,11 @@
-// Пример считывания строки gets_s()
+// РџСЂРёРјРµСЂ СЃС‡РёС‚С‹РІР°РЅРёСЏ СЃС‚СЂРѕРєРё gets_s()
 #include <iostream>
 #include <stdio.h>
 using namespace std;
 int main(){
 char str[100];
 cout<<"Enter your text, please: ";
-//Для считывания строки использована функция gets():
+//Р”Р»СЏ СЃС‡РёС‚С‹РІР°РЅРёСЏ СЃС‚СЂРѕРєРё РёСЃРїРѕР»СЊР·РѕРІР°РЅР° С„СѓРЅРєС†РёСЏ gets():
 gets_s(str,100);
 cout<<"Your text is: "<<str<<endl;
 return 0;
