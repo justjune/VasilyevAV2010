@@ -1,4 +1,4 @@
-// Массивы структур. Выход из цикла - строка exit.
+// РњР°СЃСЃРёРІС‹ СЃС‚СЂСѓРєС‚СѓСЂ. Р’С‹С…РѕРґ РёР· С†РёРєР»Р° - СЃС‚СЂРѕРєР° exit.
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <cstdio>

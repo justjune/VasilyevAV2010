@@ -1,4 +1,4 @@
-// Использование объединений
+// РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РѕР±СЉРµРґРёРЅРµРЅРёР№
 #include <iostream>
 using namespace std;
 union nums{

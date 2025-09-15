@@ -1,4 +1,4 @@
-// Указатели на структуру
+// РЈРєР°Р·Р°С‚РµР»Рё РЅР° СЃС‚СЂСѓРєС‚СѓСЂСѓ
 #include <iostream>
 using namespace std;
 struct Numbers{

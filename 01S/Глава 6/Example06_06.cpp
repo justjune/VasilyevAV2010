@@ -1,4 +1,4 @@
-// Задание полей структуры в битах
+// Р—Р°РґР°РЅРёРµ РїРѕР»РµР№ СЃС‚СЂСѓРєС‚СѓСЂС‹ РІ Р±РёС‚Р°С…
 #include <iostream>
 using namespace std;
 struct BitFields{

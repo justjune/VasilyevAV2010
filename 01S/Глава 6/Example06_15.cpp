@@ -1,4 +1,4 @@
-// Пересечение плоских прямых
+// РџРµСЂРµСЃРµС‡РµРЅРёРµ РїР»РѕСЃРєРёС… РїСЂСЏРјС‹С…
 #include <iostream>
 #include <cmath>
 using namespace std;

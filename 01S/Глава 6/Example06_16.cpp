@@ -1,4 +1,4 @@
-// Корни квадратного уравнения
+// РљРѕСЂРЅРё РєРІР°РґСЂР°С‚РЅРѕРіРѕ СѓСЂР°РІРЅРµРЅРёСЏ
 #include <iostream>
 #include <cmath>
 using namespace std;
