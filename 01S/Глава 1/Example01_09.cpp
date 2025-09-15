@@ -1,4 +1,4 @@
-// Тренарный оператор
+// РўСЂРµРЅР°СЂРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ
 #include <iostream>
 using namespace std;
 int main(){

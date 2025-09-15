@@ -1,4 +1,4 @@
-// Операторы инкремента, декремента
+// РћРїРµСЂР°С‚РѕСЂС‹ РёРЅРєСЂРµРјРµРЅС‚Р°, РґРµРєСЂРµРјРµРЅС‚Р°
 #include<iostream>
 using namespace std;
 int main(){
@@ -7,31 +7,31 @@ cout<<"At the beginning:\n";
 cout<<"i = "<<i<<"\n";
 cout<<"j = "<<j<<"\n";
 cout<<"After command n=i++ :\n";
-n=i++;// Теперь n=3, а i=4
+n=i++;// РўРµРїРµСЂСЊ n=3, Р° i=4
 cout<<"n = "<<n<<"\n"; 
 cout<<"i = "<<i<<"\n";
 cout<<" After command m=++j :\n";
-m=++j;// Значение переменных m=4 и j=4
+m=++j;// Р—РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅС‹С… m=4 Рё j=4
 cout<<"m = "<<m<<"\n"; 
 cout<<"j = "<<j<<"\n";
 cout<<" After command n=(--i)*(i--) :\n";
-n=(--i)*(i--);// Теперь n=9, а i=2
+n=(--i)*(i--);// РўРµРїРµСЂСЊ n=9, Р° i=2
 cout<<"n = "<<n<<"\n"; 
 cout<<"i = "<<i<<"\n";
 cout<<" After command m=(--j)*(--j) :\n";
-m=(--j)*(--j);// Теперь m=4, а j=2
+m=(--j)*(--j);// РўРµРїРµСЂСЊ m=4, Р° j=2
 cout<<"m = "<<m<<"\n"; 
 cout<<"j = "<<j<<"\n";
 cout<<" After command n=(--i)*(i++) :\n";
-n=(--i)*(i++);// Теперь n=1, а i=2
+n=(--i)*(i++);// РўРµРїРµСЂСЊ n=1, Р° i=2
 cout<<"n = "<<n<<"\n";
 cout<<"i = "<<i<<"\n";
 cout<<" After command m=(j--)*(++j) :\n";
-m=(j--)*(++j);// Теперь m=9, а j=2
+m=(j--)*(++j);// РўРµРїРµСЂСЊ m=9, Р° j=2
 cout<<"m = "<<m<<"\n";
 cout<<"j = "<<j<<"\n";
 cout<<" After command n=(--i)*(++i) :\n";
-n=(--i)*(++i);// Теперь n=4, а i=2
+n=(--i)*(++i);// РўРµРїРµСЂСЊ n=4, Р° i=2
 cout<<"n = "<<n<<"\n";
 cout<<"i = "<<i<<"\n";
 return 0;
