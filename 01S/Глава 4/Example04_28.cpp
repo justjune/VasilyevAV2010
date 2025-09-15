@@ -1,11 +1,11 @@
-// Метод хорд для поиска корня полинома
+// РњРµС‚РѕРґ С…РѕСЂРґ РґР»СЏ РїРѕРёСЃРєР° РєРѕСЂРЅСЏ РїРѕР»РёРЅРѕРјР°
 #include <iostream>
 #include<cstdlib>
 using namespace std;
-//Функция для полинома:
+//Р¤СѓРЅРєС†РёСЏ РґР»СЏ РїРѕР»РёРЅРѕРјР°:
 double F(double x){
 return x*x-9*x+14;}
-//Функция поиска корня:
+//Р¤СѓРЅРєС†РёСЏ РїРѕРёСЃРєР° РєРѕСЂРЅСЏ:
 double FindRoot(double (*f)(double),double a,double b,double eps){
 double c;
 while(abs(f(b)-f(a))>eps){
@@ -15,18 +15,18 @@ while(abs(f(b)-f(a))>eps){
 }
 return c;}
 int main(){
-//Интервал, погрешность и корень:
+//РРЅС‚РµСЂРІР°Р», РїРѕРіСЂРµС€РЅРѕСЃС‚СЊ Рё РєРѕСЂРµРЅСЊ:
 double a,b,eps,x;
 cout<<"interval: ";
 cin>>a;
 cin>>b;
-//Проверка корректности интервала:
+//РџСЂРѕРІРµСЂРєР° РєРѕСЂСЂРµРєС‚РЅРѕСЃС‚Рё РёРЅС‚РµСЂРІР°Р»Р°:
 if(F(a)*F(b)>0){
    cout<<"Wrong interval!\n";
    return 0;}
 cout<<"error: ";
 cin>>eps;
-//Поиск решения:
+//РџРѕРёСЃРє СЂРµС€РµРЅРёСЏ:
 x=FindRoot(F,a,b,eps);
 cout<<"x = "<<x<<endl;
 return 0;}

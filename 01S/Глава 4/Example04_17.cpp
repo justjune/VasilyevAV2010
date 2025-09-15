@@ -1,4 +1,4 @@
-// Возврат функцией указателя
+// Р’РѕР·РІСЂР°С‚ С„СѓРЅРєС†РёРµР№ СѓРєР°Р·Р°С‚РµР»СЏ
 #include <iostream>
 using namespace std;
 int *mpoint(int &n,int &m){

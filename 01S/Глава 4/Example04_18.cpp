@@ -1,4 +1,4 @@
-// Возврат функцией ссылки
+// Р’РѕР·РІСЂР°С‚ С„СѓРЅРєС†РёРµР№ СЃСЃС‹Р»РєРё
 #include <iostream>
 using namespace std;
 int &mpoint(int &n,int &m){

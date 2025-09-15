@@ -1,4 +1,4 @@
-// Использование перегрузки во благо
+// РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РїРµСЂРµРіСЂСѓР·РєРё РІРѕ Р±Р»Р°РіРѕ
 #include <iostream>
 using namespace std;
 void ndiv(double x, double y){
