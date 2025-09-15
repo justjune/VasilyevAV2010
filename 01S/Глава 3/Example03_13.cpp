@@ -1,4 +1,4 @@
-// Сортировка массива "пузырьком"
+// РЎРѕСЂС‚РёСЂРѕРІРєР° РјР°СЃСЃРёРІР° "РїСѓР·С‹СЂСЊРєРѕРј"
 #include<iostream>
 #include<ctime>
 using namespace std;
@@ -10,11 +10,11 @@ time_t start;
 time(&start);
 srand((int)start);
 cout<<"Before:\n";
-// Исходный массив:
+// РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ:
 for(i=0;i<m;i++){
    MyArray[i]=rand() % 20;
    cout<<MyArray[i]<<" ";}
-// Сортировка массива:
+// РЎРѕСЂС‚РёСЂРѕРІРєР° РјР°СЃСЃРёРІР°:
 for(j=1;j<=(m-1);j++)
    for(i=0;i<m-j;i++)
       if(MyArray[i]>MyArray[i+1]){
@@ -23,7 +23,7 @@ for(j=1;j<=(m-1);j++)
          MyArray[i]=s;
       }
 cout<<"\nAfter:\n";
-// Массив после сортировки:
+// РњР°СЃСЃРёРІ РїРѕСЃР»Рµ СЃРѕСЂС‚РёСЂРѕРІРєРё:
 for(i=0;i<m;i++)
    cout<<MyArray[i]<<" ";
 cout<<"\n";
