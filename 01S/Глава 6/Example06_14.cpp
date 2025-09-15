@@ -1,4 +1,4 @@
-// –сстояние между точками в пространстве
+// Расстояние между точками в пространстве
 #include <iostream>
 #include <cmath>
 using namespace std;
