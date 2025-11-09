@@ -1,0 +1,588 @@
+With no format settings 
+
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1.23457e+09
+-1.23457e+09
+1
+-1
+
+With only scientific on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1.234568e+09
+-1.234568e+09
+1.000000e+00
+-1.000000e+00
+
+With only fixed on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1234567800.000000
+-1234567800.000000
+1.000000
+-1.000000
+
+With scientific and fixed on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and precision(4) on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1.2346e+09
+-1.2346e+09
+1.0000e+00
+-1.0000e+00
+
+With fixed and precision(4) on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1234567800.0000
+-1234567800.0000
+1.0000
+-1.0000
+
+With scientific and fixed, precision(4) on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and fixed, precision(4), showpoint on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and left on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1e+09
+-1e+09
+1e+00
+-1e+00
+
+With fixed and left on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1234567800
+-1234567800
+1
+-1
+
+With scientific, fixed, and left on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific, left and precision(4) on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1.2346e+09
+-1.2346e+09
+1.0000e+00
+-1.0000e+00
+
+With fixed, left and precision(4) on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1234567800.0000
+-1234567800.0000
+1.0000
+-1.0000
+
+With scientific and fixed, left, precision(4) on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and fixed, left, precision(4), showpoint on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and right on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1e+09
+-1e+09
+1e+00
+-1e+00
+
+With fixed and right on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1234567800
+-1234567800
+1
+-1
+
+With scientific, fixed, and right on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific, fixed, right, and showpoint on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific, right and precision(4) on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1.2346e+09
+-1.2346e+09
+1.0000e+00
+-1.0000e+00
+
+With fixed, right and precision(4) on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+1234567800.0000
+-1234567800.0000
+1.0000
+-1.0000
+
+With scientific and fixed, right, precision(4) on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and fixed, right, precision(4), showpoint on
+the results are:
+Integer:
+1
+-1
+1234567890
+-1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+All  of the following are with setw(15)
+With no format settings 
+
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+             1e+09
+            -1e+09
+                 1
+                -1
+
+With only scientific on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+             1e+09
+            -1e+09
+             1e+00
+            -1e+00
+
+With only fixed on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+        1234567800
+       -1234567800
+                 1
+                -1
+
+With scientific and fixed on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and precision(4) on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+        1.2346e+09
+       -1.2346e+09
+        1.0000e+00
+       -1.0000e+00
+
+With fixed and precision(4) on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+   1234567800.0000
+  -1234567800.0000
+            1.0000
+           -1.0000
+
+With scientific and fixed, precision(4) on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and fixed, precision(4), showpoint on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and left on
+the results are:
+Integer:
+1                 
+-1                
+1234567890        
+-1234567890       
+Float point:
+1e+09             
+-1e+09            
+1e+00             
+-1e+00            
+
+With fixed and left on
+the results are:
+Integer:
+1                 
+-1                
+1234567890        
+-1234567890       
+Float point:
+1234567800        
+-1234567800       
+1                 
+-1                
+
+With scientific, fixed, and left on
+the results are:
+Integer:
+1                 
+-1                
+1234567890        
+-1234567890       
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific, left and precision(4) on
+the results are:
+Integer:
+1                 
+-1                
+1234567890        
+-1234567890       
+Float point:
+1.2346e+09        
+-1.2346e+09       
+1.0000e+00        
+-1.0000e+00       
+
+With fixed, left and precision(4) on
+the results are:
+Integer:
+1                 
+-1                
+1234567890        
+-1234567890       
+Float point:
+1234567800.0000   
+-1234567800.0000  
+1.0000            
+-1.0000           
+
+With scientific and fixed, left, precision(4) on
+the results are:
+Integer:
+1                 
+-1                
+1234567890        
+-1234567890       
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and fixed, left, precision(4), showpoint on
+the results are:
+Integer:
+1                 
+-1                
+1234567890        
+-1234567890       
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and right on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+             1e+09
+            -1e+09
+             1e+00
+            -1e+00
+
+With fixed and right on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+        1234567800
+       -1234567800
+                 1
+                -1
+
+With scientific, fixed, and right on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific, right and precision(4) on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+        1.2346e+09
+       -1.2346e+09
+        1.0000e+00
+       -1.0000e+00
+
+With fixed, right and precision(4) on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+   1234567800.0000
+  -1234567800.0000
+            1.0000
+           -1.0000
+
+With scientific and fixed, right, precision(4) on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
+With scientific and fixed, right, precision(4), showpoint on
+the results are:
+Integer:
+                 1
+                -1
+        1234567890
+       -1234567890
+Float point:
+0x1.265809e000000p+30
+-0x1.265809e000000p+30
+0x1.0000000000000p+0
+-0x1.0000000000000p+0
+
