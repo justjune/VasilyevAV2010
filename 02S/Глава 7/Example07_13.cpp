@@ -1,4 +1,4 @@
-// Пример: Полет тела
+// РџСЂРёРјРµСЂ: РџРѕР»РµС‚ С‚РµР»Р°
 #include <iostream>
 #include <cmath>
 using namespace std;

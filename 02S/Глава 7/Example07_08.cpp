@@ -1,4 +1,4 @@
-// Перегрузка методов
+// РџРµСЂРµРіСЂСѓР·РєР° РјРµС‚РѕРґРѕРІ
 #include <iostream>
 using namespace std;
 class MyClass
@@ -6,7 +6,7 @@ class MyClass
 	int a,b;
 public:
 	string name;
-	//Перегруженный метод:
+	//РџРµСЂРµРіСЂСѓР¶РµРЅРЅС‹Р№ РјРµС‚РѕРґ:
 	void setab(int i,int j)
 	{
 		a=i;

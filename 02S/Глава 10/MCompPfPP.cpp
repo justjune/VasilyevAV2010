@@ -1,6 +1,6 @@
 #include"Chapter10\Example10_04\MComp.h"
 
-// Префиксный инкремент
+// РџСЂРµС„РёРєСЃРЅС‹Р№ РёРЅРєСЂРµРјРµРЅС‚
 MComp operator++(MComp &x){
 x.Re++;
 return x;}

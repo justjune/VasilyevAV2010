@@ -1,25 +1,25 @@
-// Класс с полем классового типа: вызов вложенных конструкторов и деструкторов
+// РљР»Р°СЃСЃ СЃ РїРѕР»РµРј РєР»Р°СЃСЃРѕРІРѕРіРѕ С‚РёРїР°: РІС‹Р·РѕРІ РІР»РѕР¶РµРЅРЅС‹С… РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂРѕРІ Рё РґРµСЃС‚СЂСѓРєС‚РѕСЂРѕРІ
 #include <iostream>
 using namespace std;
-//"Внутренний" класс:
+//"Р’РЅСѓС‚СЂРµРЅРЅРёР№" РєР»Р°СЃСЃ:
 class Inner{
 public:
 int n;
-//Конструктор:
+//РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ:
 Inner(){
 n=0;
 cout<<"Inner-object created with n="<<n<<endl;}
-//Деструктор:
+//Р”РµСЃС‚СЂСѓРєС‚РѕСЂ:
 ~Inner(){
 cout<<"Inner-object destroyed with n="<<n<<endl;}
 };
-//"Внешний" класс:
+//"Р’РЅРµС€РЅРёР№" РєР»Р°СЃСЃ:
 class Outer{
 public:
 int m;
-//Поле-объект:
+//РџРѕР»Рµ-РѕР±СЉРµРєС‚:
 Inner obj;
-//Перегруженный конструктор:
+//РџРµСЂРµРіСЂСѓР¶РµРЅРЅС‹Р№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ:
 Outer(int i){
 m=i;
 cout<<"Outer-object created with m="<<m<<endl;}
@@ -27,7 +27,7 @@ Outer(int i,int j){
 m=i;
 obj.n=j;
 cout<<"Outer-object created with m="<<m<<endl;}
-//Деструктор:
+//Р”РµСЃС‚СЂСѓРєС‚РѕСЂ:
 ~Outer(){
 cout<<"Outer-object destroyed with m="<<m<<endl;}
 };

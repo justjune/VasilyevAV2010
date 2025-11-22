@@ -1,4 +1,4 @@
-// Использование указателя this
+// РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ СѓРєР°Р·Р°С‚РµР»СЏ this
 #include <iostream>
 using namespace std;
 class MyClass{

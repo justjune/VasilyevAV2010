@@ -1,5 +1,5 @@
 #include"Chapter10\Example10_04\MComp.h"
-// Постфиксный инкремент
+// РџРѕСЃС‚С„РёРєСЃРЅС‹Р№ РёРЅРєСЂРµРјРµРЅС‚
 MComp operator++(MComp &x, int unused){
 x.Im++;
 return x;}

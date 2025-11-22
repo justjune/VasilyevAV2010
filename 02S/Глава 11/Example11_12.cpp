@@ -1,4 +1,4 @@
-// Чистая виртуальная функция - функция без тела
+// Р§РёСЃС‚Р°СЏ РІРёСЂС‚СѓР°Р»СЊРЅР°СЏ С„СѓРЅРєС†РёСЏ - С„СѓРЅРєС†РёСЏ Р±РµР· С‚РµР»Р°
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -7,19 +7,19 @@ class Figure{
 public:
 double R;
 Figure(){R=1;}
-virtual double area()=0; // чистая виртуальная функция
-}; // наличие лишь одно ЧВФ делает класс абстрактным!
-class Circle:public Figure{ // наследования от абстрактного класса
+virtual double area()=0; // С‡РёСЃС‚Р°СЏ РІРёСЂС‚СѓР°Р»СЊРЅР°СЏ С„СѓРЅРєС†РёСЏ
+}; // РЅР°Р»РёС‡РёРµ Р»РёС€СЊ РѕРґРЅРѕ Р§Р’Р¤ РґРµР»Р°РµС‚ РєР»Р°СЃСЃ Р°Р±СЃС‚СЂР°РєС‚РЅС‹Рј!
+class Circle:public Figure{ // РЅР°СЃР»РµРґРѕРІР°РЅРёСЏ РѕС‚ Р°Р±СЃС‚СЂР°РєС‚РЅРѕРіРѕ РєР»Р°СЃСЃР°
 public:
 double area(){
 return pi*R*R;}
 };
-class Square:public Figure{ // еще одно наследование от абстрактного класса
+class Square:public Figure{ // РµС‰Рµ РѕРґРЅРѕ РЅР°СЃР»РµРґРѕРІР°РЅРёРµ РѕС‚ Р°Р±СЃС‚СЂР°РєС‚РЅРѕРіРѕ РєР»Р°СЃСЃР°
 public:
 double area(){
 return R*R;}
 };
-class Triangle:public Figure{ // еще одно наследование от того же предка
+class Triangle:public Figure{ // РµС‰Рµ РѕРґРЅРѕ РЅР°СЃР»РµРґРѕРІР°РЅРёРµ РѕС‚ С‚РѕРіРѕ Р¶Рµ РїСЂРµРґРєР°
 public:
 double area(){
 return sqrt(3)*R*R/4;}
